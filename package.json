@@ -16,9 +16,11 @@
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.0.0",
+    "gulp-svgstore": "^8.0.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.0",
-    "sass": "^1.36.0"
+    "sass": "^1.36.0",
+    "slick-carousel": "^1.8.1"
   },
   "dependencies": {}
 }
