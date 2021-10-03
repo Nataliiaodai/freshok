@@ -1,2 +1,75 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  background-color: $white;
+  font-size: 16px;
+  letter-spacing: 3%
+}
+
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.new__badge {
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  background-color: #63A60E;
+  border-radius: 6px;
+  display: block;
+  padding: 3px 6px;
+  color: #FFFFFF;
+}
+
+.sale__badge {
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  background-color: $red-900;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 3px 6px;
+  color: #FFFFFF;
+}
+
+.hit__badge {
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  background-color: $orange-900;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 3px 6px;
+  color: #FFFFFF;
+}
 
 
+.product__select-item {
+  max-width: 300px;
+  min-height: 409px;
+  border: 1px solid #E5E5E5;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.load__button {
+  padding: 16px 27px;
+  border: 1px solid #63A60E;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 72px auto;
+}

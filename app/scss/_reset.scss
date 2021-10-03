@@ -8,9 +8,9 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-}
+// a {
+//   text-decoration: none;
+// }
 
 ul,
 ol {
@@ -36,7 +36,7 @@ dd {
   margin: 0;
 }
 
-ul[class] {
+ul {
   list-style: none;
 }
 
