@@ -435,13 +435,14 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 1px;
-    min-width: 390px;
+    
   }
 
   &__tagline {
     font-weight: 600;
     font-size: 30px;
     line-height: 42px;
+    max-width: 390px;
   }
 
   &__link {
