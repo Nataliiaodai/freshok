@@ -435,14 +435,13 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 1px;
-    
+
   }
 
   &__tagline {
     font-weight: 600;
     font-size: 30px;
     line-height: 42px;
-    max-width: 390px;
   }
 
   &__link {
@@ -451,10 +450,17 @@
     line-height: 14px;
     color: #505050;
   }
+}
 
+.banner__tagline--firsr {
+  max-width: 390px;
+}
 
-  &__link--first {
-    color: #fff;
+.banner__tagline--second {
+  max-width: 185px;
+}
 
-  }
+.banner__link--first {
+  color: #fff;
+
 }
