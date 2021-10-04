@@ -315,6 +315,16 @@
     transform: rotate(-12deg);
   }
 
+  &__old-price--juice:before{
+     content: "";
+     border-bottom: 1px solid #C1C1C1;
+     position: absolute;
+     width: 18%;
+     height: 51%;
+     transform: rotate(-12deg);
+  }
+
+
   &__filter-list {
     display: flex;
     justify-content: center;
