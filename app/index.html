@@ -71,11 +71,22 @@
         </button>
 
         <form class="search">
-          <svg class="search__icon" width="20" height="20">
-            <use xlink:href="images/images.svg#search"></use>
-          </svg>
-          <input class="search__input" name="search" type="search" placeholder="Найти в магазине ...">
-          <button class="search__button" type="submit">ПОИСК</button>
+
+          <label class="search__label" for="">
+            <svg class="search__icon" width="20" height="20">
+              <use xlink:href="images/images.svg#search"></use>
+            </svg>
+          </label>
+          
+          <label class="search__label" for="">
+            <input class="search__input" name="search" type="search" placeholder="Найти в магазине ...">
+          </label>
+
+          <label class="search__label" for="">
+            <button class="search__button" type="submit">ПОИСК</button>
+          </label>
+          
+
         </form>
 
         <ul class="user__list">
@@ -102,7 +113,7 @@
             <span class="user__number">
               12
             </span>
-            <button type="user__button">
+            <button class="user__button" type="button">
               <svg class="user__icon" width="32" height="31">
                 <use xlink:href="images/images.svg#cart"></use>
               </svg>
