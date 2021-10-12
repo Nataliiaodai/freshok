@@ -5,23 +5,49 @@
 @import 'global';
 
 
+
+
+.search{
+  display: flex;
+}
+
+.menu__user{
+  display: flex;
+}
+
 .logo {
   margin-right: 26px;
 }
 
-.header {
-  &__top {
+
+  // background-color: $green-900;
+
+
+.menu {
+  &__list {
     background-color: $dark-800;
+    display: flex;
+    align-items: center;
+    padding: 17px 0;
+    justify-content: flex-start;
   }
 
-  &__bottom {
-    background-color: $green-900;
+  &__item {
+    margin-right: 24px;
 
+    &--start {
+      margin-right: 43px;
+    }
+
+    &--delivery {
+      margin-left: auto;
+    }
   }
 
   &__link {
     color: $white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',
+      sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 15.6px;
@@ -33,42 +59,7 @@
     margin-right: 12px;
   }
 
-  &__delivery {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 8px;
-    padding-bottom: 16px;
-  }
-
-
-  &__list {
-    display: flex;
-    align-items: center;
-    padding: 17px 0;
-  }
-
-  &__item--delivery {
-    margin-left: auto;
-    margin-right: 24px;
-  }
-
-  &__item--about {
-    margin-right: 24px;
-  }
-
-  &__item--adress {
-    margin-right: 43px;
-  }
-
-  &__navigation {
-    display: flex;
-    align-items: center;
-    padding: 30px 0;
-  }
-
 }
-
 
 .catalog__button {
   margin-right: 30px;
@@ -378,6 +369,7 @@
     text-transform: uppercase;
     color: #505050;
     padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
 
     &:hover {
       border-bottom: 3px solid #E0EDCF;

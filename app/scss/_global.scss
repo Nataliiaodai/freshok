@@ -24,38 +24,35 @@ body {
   overflow: hidden;
 }
 
-.new__badge {
-  font-size: 10px;
-  line-height: 10px;
-  text-transform: uppercase;
-  background-color: #63A60E;
-  border-radius: 6px;
+.badges {
   display: block;
-  padding: 3px 6px;
-  color: #FFFFFF;
+  &__item {
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 1;
+    border-radius: 6px;
+    display: block;
+    padding: 3px 6px;
+    color: #FFFFFF;
+    display: table;
+    &--new {
+      background-color: #63A60E;
+    }
+
+    &--sale {
+      background-color: $red-900;
+    }
+
+    &--hit {
+      background-color: $orange-900;
+    }
+
+  }
+
 }
 
-.sale__badge {
-  font-size: 10px;
-  line-height: 10px;
-  text-transform: uppercase;
-  background-color: $red-900;
-  border-radius: 6px;
-  display: inline-block;
-  padding: 3px 6px;
-  color: #FFFFFF;
-}
 
-.hit__badge {
-  font-size: 10px;
-  line-height: 10px;
-  text-transform: uppercase;
-  background-color: $orange-900;
-  border-radius: 6px;
-  display: inline-block;
-  padding: 3px 6px;
-  color: #FFFFFF;
-}
+
 
 
 .product__select-item {
